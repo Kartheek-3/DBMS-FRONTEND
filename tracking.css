@@ -1,0 +1,15 @@
+/* Tracking Section */
+#tracking {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#tracking-status {
+    margin-top: 2rem;
+    font-size: 1rem;
+    line-height: 1.6;
+}

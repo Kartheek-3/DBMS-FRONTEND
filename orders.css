@@ -1,0 +1,27 @@
+#orders-page {
+    padding: 2rem;
+    text-align: center;
+}
+
+#orders-page table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 80%;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#orders-page th, #orders-page td {
+    padding: 1rem;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+#orders-page th {
+    background-color: #333;
+    color: white;
+}
+
+#orders-page tr:nth-child(even) {
+    background-color: #f2f2f2;
+}

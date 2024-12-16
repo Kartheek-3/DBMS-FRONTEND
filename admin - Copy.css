@@ -1,0 +1,19 @@
+/* Admin Panel */
+#admin-panel {
+    text-align: center;
+}
+
+#admin-panel button {
+    margin: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#admin-panel button:hover {
+    background-color: #0056b3;
+}

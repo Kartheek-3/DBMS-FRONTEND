@@ -1,0 +1,118 @@
+/* Set background image and overall page styles */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('c:\Users\Kartheek\OneDrive\Documents\Downloads\DALL·E 2024-12-15 21.11.19 - A beautiful, tranquil night sky with a gradient of purple and pink hues, scattered stars in the sky, and silhouettes of trees at the base. The backgro.webp') no-repeat center center fixed; 
+    background-size: cover;
+}
+
+/* Box containing the login form */
+.login-box {
+    background:darkmagenta;/* Transparent black background */
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+/* Styling the input fields and icons */
+.input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.input-icon {
+    color: #fff;
+    margin-right: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: transparent;
+    color: white;
+    outline: none;
+    font-size: 1rem;
+}
+
+input::placeholder {
+    color: #ddd;
+}
+
+/* Remember me and Forgot password link */
+.remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    color: #ddd;
+}
+
+.remember-forgot a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.remember-forgot label {
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.remember-forgot input {
+    margin-right: 5px;
+}
+
+/* Submit button */
+button {
+    width: 100%;
+    background-color: #5C6BC0; /* A soothing blue/purple shade */
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+button:hover {
+    background-color: #3E4A89; /* Darker shade on hover */
+}
+
+/* Register link at the bottom */
+.register-link {
+    margin-top: 20px;
+    color: #ddd;
+}
+
+.register-link a {
+    color: #5C6BC0;
+    text-decoration: none;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
+
+/* Response message */
+.response {
+    margin-top: 20px;
+    color: green;
+    font-weight: bold;
+}

@@ -1,0 +1,72 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-weight: normal;
+  color: #333;
+}
+
+p {
+  font-size: 1rem;
+  color: #555;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Header and Footer Styles */
+header, footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+header h1, footer p {
+  font-size: 1.5rem;
+}
+
+/* Button Styles */
+button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  body {
+      padding: 10px;
+  }
+
+  header h1, footer p {
+      font-size: 1.2rem;
+  }
+
+  button {
+      width: 100%;
+      padding: 1rem;
+      font-size: 1.2rem;
+  }
+}

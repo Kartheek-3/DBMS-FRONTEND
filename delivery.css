@@ -1,0 +1,76 @@
+/* Delivery Page Styles */
+#delivery {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#delivery h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+#delivery-status {
+    font-size: 1rem;
+    line-height: 1.6;
+    background: #f9f9f9;
+    padding: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Delivery Table (if applicable) */
+.delivery-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+.delivery-table thead th {
+    background-color: #333;
+    color: white;
+    text-align: left;
+    padding: 1rem;
+}
+
+.delivery-table tbody td {
+    padding: 1rem;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Highlight delivery statuses */
+.delivery-status {
+    padding: 0.5rem;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.delivery-status.pending {
+    background-color: #ffc107;
+}
+
+.delivery-status.in-transit {
+    background-color: #17a2b8;
+}
+
+.delivery-status.delivered {
+    background-color: #28a745;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #delivery {
+        width: 90%;
+    }
+
+    .delivery-table {
+        font-size: 0.9rem;
+    }
+}

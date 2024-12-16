@@ -1,0 +1,96 @@
+/* Scoping styles to .payment-page */
+.payment-page {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Light gray background */
+    background-image: url('');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+}
+
+.payment-page main {
+    width: 100%;
+    max-width: 500px;
+    background: #ffffff; /* White background */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
+.payment-page h2 {
+    text-align: center;
+    color: #343a40; /* Dark gray */
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+}
+
+.payment-page h3 {
+    color: #495057; /* Medium gray */
+    margin: 0.5rem 0;
+    text-align: center;
+}
+
+.payment-page p {
+    text-align: center;
+    color: #6c757d; /* Subtle gray */
+}
+
+/* Payment Form Styling */
+.payment-page form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.payment-page label {
+    font-weight: bold;
+    color: #495057;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.payment-page input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #495057;
+    background-color: #ffffff;
+    box-sizing: border-box;
+}
+
+.payment-page input:focus {
+    outline: none;
+    border-color: #80bdff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.payment-page button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #007bff; /* Bootstrap primary blue */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.payment-page button:hover {
+    background-color: #0056b3; /* Darker blue */
+}
+
+.payment-page .error {
+    color: #dc3545; /* Bootstrap danger red */
+    font-size: 0.9rem;
+    text-align: center;
+    margin-top: -0.5rem;
+}
